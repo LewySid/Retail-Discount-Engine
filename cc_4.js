@@ -1,4 +1,4 @@
-// Step 1: Creat Js file and link to HTML
+// Step 1: Create Js file and link to HTML
 // Step 2: Creating an array of products
 
 let products = [
@@ -37,7 +37,7 @@ for (const product of products) {
 console.log("-----\nAfter Applying Discounts:");
 console.table(products); // Prints products with discounts in aligned columns
 
-// Step 4: Applying additonal discounts
+// Step 4: Applying additional discounts
 
 let customerType = "regular";
 function applyAdditionalDiscount(customerType){
@@ -96,7 +96,7 @@ for (const key in sampleProduct) {
     console.log(`${key}: ${sampleProduct[key]}`);
 }
 
-// Step 7: Use object.entries and destructuring to log all products info after inventory has been updated
+// Step 7: All product info after inventory has been updated
 
 console.log("-----\nAll Product Info After Inventory Update:");
 for (const product of products) {
